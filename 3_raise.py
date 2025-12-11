@@ -24,3 +24,19 @@
 # Error: Age must be a positive integer!
 
 # write your code here:
+
+
+def check_age(age):
+    if age<0:
+        raise ValueError("Age must be a positive integer!")
+    else:
+        return True
+     
+try:
+    age =int(input('Please type a number: '))
+    print(check_age(age))
+except ValueError:
+    print('Age must be a positive integer!')
+
+
+    

@@ -22,3 +22,12 @@
 # Attempt finished.
 
 # write your code here:
+
+try:
+   number1 = int(input("Type a number pls: "))
+except:
+    print("You can't do this girl :c")
+else:
+    print("Conversion successful!")
+finally:
+   print("Attempt finished.")
