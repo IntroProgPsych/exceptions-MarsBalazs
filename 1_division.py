@@ -25,3 +25,14 @@
 # Operation finished.
 
 # write your code here:
+
+try:
+   number1 = int(input("Type a number pls: "))
+   number2 = int(input("Type a number pls: "))
+   number1/number2
+except:
+    print("You can't do this girl :c")
+else:
+   print(number1/number2)
+finally:
+   print("Operation finished.")
